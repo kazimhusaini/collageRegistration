@@ -1,0 +1,32 @@
+<?php
+$conn = mysqli_connect("localhost", "root", "", "project");
+
+
+// username and password sent from form 
+$email=$_POST['e_name'];
+$pass=$_POST['password'];
+
+
+if( isset($_POST['submit'])) {
+
+		$ret=mysqli_query( $conn, "SELECT * FROM signup WHERE email='$email' AND password='$pass'") or die("Could not execute query: " .mysqli_error($conn));
+		
+		$row = mysqli_fetch_assoc($ret);
+
+		if($row) {
+		header("Location: index.php");
+		}
+		
+		else {
+			echo "error";
+	       
+              header("Location: signup.php");
+exit();
+  		
+}
+
+
+}
+
+?>
+

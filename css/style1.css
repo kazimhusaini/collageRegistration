@@ -1,0 +1,431 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.hero
+{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0,4),rgba(0,0,0,0,4));
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	background-image: url(../3.jpg);
+
+
+	
+}
+
+.form-box
+{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+ 
+.button-box
+{
+width: 220px;
+margin: 35px auto;
+position: relative;
+box-shadow: 0 0 20px 9px #ff61141f;
+border-radius: 30px; 
+
+}
+
+.toggle_btn
+{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border :0;
+	outline: none;
+	position: relative;
+
+
+}
+#btn
+{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width :110px;
+	height: 100%;
+	background:  linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+	transition: .5s;
+
+	
+}
+
+.input-field
+{
+
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.input
+{
+	top:120px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+
+}
+
+.submit-btn1
+{
+	width: 70%;
+	padding:  10px;
+	cursor: pointer;
+	display: block;
+   
+    background: black;
+    border: 0;
+    outline: none;
+    
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+    margin: auto;
+    background:  linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#reset
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:  linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 30px 0;
+
+}
+span{
+	margin-top: 0px;
+	color: #777;
+	font-size: 12px;
+	
+	
+}
+
+#login
+{
+	left: 50px;
+
+}
+#register
+{
+	left: 450px;
+	
+}	
+#delete1
+{
+    left: 50px;
+
+}
+#update1
+{
+    left: 450px;
+    
+}	
+#search
+{
+	
+	margin-left: 1100px;
+}
+/*table*/
+
+
+
+/* main page*/
+
+
+
+
+.link-title {
+    
+    text-decoration: none;
+    font-size: 30px;
+    color:#444444;
+
+
+}
+
+.page-heading {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.container {
+ 
+     margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
+
+
+}
+
+.header {
+
+    padding: 45px 0 20px 40px;
+
+}
+
+.menu {
+    
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    padding: 6px 0 6px 40px;
+padding: 15px;
+
+}
+
+
+.menu a {
+
+    color: yellow;
+    text-decoration: none;
+    font-size: 25px;
+  
+}
+
+.menu a:hover {
+
+    color:green;
+
+
+}
+
+aside {
+
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+
+}
+
+h1 {
+
+    margin: 0px;
+    color:#869843;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+
+}
+
+h2 {
+
+    color:#3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+    
+}
+
+.main {
+
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px; 
+    line-height: 18px;
+    text-emphasis: justify;
+    
+
+}
+
+.main a:hover {
+
+    color: #444444;
+
+}
+
+#home-image img {
+    
+    width: 100%;
+
+}
+
+
+
+
+footer {
+
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    clear: both;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color:#262626;
+    
+
+}
+
+.separator {
+    
+    color:#FFFFFF;
+    font-size: 11px;
+
+
+}
+.back{
+		background-image: url(../3.jpg);
+
+}
+
+/****************About Page Styles *****************/
+
+
+#about-page #home-image img {
+    
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#about-page #profile-info {
+
+
+
+}
+
+#about-page .description {
+
+    clear: both;
+
+
+}
+
+
+/***************Contact Page ********************/
+
+#contact #form {
+    
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+#contact #form input {
+
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+
+}
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(59, 118, 135);
+
+}
+/*     student record*/
+
+
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:blue;
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri;
+   background: red; 
+  color:blue; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: #FFF; 
+position: center;
+  border: 2px solid navy
+
+}
+table.inner{
+  border: 0px
+}
+
+
+
+
+tr:nth-child(even) {
+    background-color: orange;
+    
+}
+
+td {
+  border: 1px solid #cecfd5;
+  padding: 10px 40px;
+
+}
+.tdd{
+     border: 1px solid #cecfd5;
+ padding-left:  15px;
+}
+h3{
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
